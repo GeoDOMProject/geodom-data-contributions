@@ -1,0 +1,1294 @@
+{
+    "metadata": {
+        "title": "División Territorial de la República Dominicana para Planificación (Ley 345-22)",
+        "description": "Estructura jerárquica de la división territorial de la República Dominicana, definida para fines de planificación, según la Ley Orgánica No. 345-22. El dataset está organizado en las 10 Regiones Únicas de Planificación oficiales, Provincias y Municipios. Los códigos de provincias y municipios se basan en la codificación de la Oficina Nacional de Estadística (ONE).",
+        "author": "Adatar (compilado a partir de fuente oficial)",
+        "source": {
+            "name": "Ley Orgánica de Regiones Únicas de Planificación de la República Dominicana, núm. 345-22",
+            "publication": "Gaceta Oficial No. 11077 del 2 de agosto de 2022",
+            "promulgated": "2022-07-29"
+        },
+        "dateCreated": "2024-05-21",
+        "license": "Datos Públicos del Gobierno Dominicano. Compilación bajo CC0 1.0 Universal.",
+        "tags": [
+            "división territorial",
+            "regiones",
+            "provincias",
+            "municipios",
+            "planificación",
+            "ley 345-22",
+            "geografía",
+            "gobierno",
+            "República Dominicana",
+            "GeoDOM"
+        ],
+        "spatialCoverage": "República Dominicana",
+        "temporalCoverage": "2022 - Presente"
+    },
+    "data": [
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Santiago",
+            "PROV_CODE": "25",
+            "MUN_NAME": "Santiago",
+            "MUN_CODE": "2501"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Santiago",
+            "PROV_CODE": "25",
+            "MUN_NAME": "Bisonó",
+            "MUN_CODE": "2502"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Santiago",
+            "PROV_CODE": "25",
+            "MUN_NAME": "Jánico",
+            "MUN_CODE": "2503"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Santiago",
+            "PROV_CODE": "25",
+            "MUN_NAME": "Licey al Medio",
+            "MUN_CODE": "2504"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Santiago",
+            "PROV_CODE": "25",
+            "MUN_NAME": "San José de las Matas",
+            "MUN_CODE": "2505"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Santiago",
+            "PROV_CODE": "25",
+            "MUN_NAME": "Tamboril",
+            "MUN_CODE": "2506"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Santiago",
+            "PROV_CODE": "25",
+            "MUN_NAME": "Villa González",
+            "MUN_CODE": "2507"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Santiago",
+            "PROV_CODE": "25",
+            "MUN_NAME": "Puñal",
+            "MUN_CODE": "2508"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Santiago",
+            "PROV_CODE": "25",
+            "MUN_NAME": "Sabana Iglesia",
+            "MUN_CODE": "2509"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Santiago",
+            "PROV_CODE": "25",
+            "MUN_NAME": "Baitoa",
+            "MUN_CODE": "2510"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Espaillat",
+            "PROV_CODE": "09",
+            "MUN_NAME": "Moca",
+            "MUN_CODE": "0901"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Espaillat",
+            "PROV_CODE": "09",
+            "MUN_NAME": "Cayetano Germosén",
+            "MUN_CODE": "0902"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Espaillat",
+            "PROV_CODE": "09",
+            "MUN_NAME": "Gaspar Hernández",
+            "MUN_CODE": "0903"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Espaillat",
+            "PROV_CODE": "09",
+            "MUN_NAME": "Jamao al Norte",
+            "MUN_CODE": "0904"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Espaillat",
+            "PROV_CODE": "09",
+            "MUN_NAME": "San Víctor",
+            "MUN_CODE": "0905"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Puerto Plata",
+            "PROV_CODE": "18",
+            "MUN_NAME": "Puerto Plata",
+            "MUN_CODE": "1801"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Puerto Plata",
+            "PROV_CODE": "18",
+            "MUN_NAME": "Altamira",
+            "MUN_CODE": "1802"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Puerto Plata",
+            "PROV_CODE": "18",
+            "MUN_NAME": "Guananico",
+            "MUN_CODE": "1803"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Puerto Plata",
+            "PROV_CODE": "18",
+            "MUN_NAME": "Imbert",
+            "MUN_CODE": "1804"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Puerto Plata",
+            "PROV_CODE": "18",
+            "MUN_NAME": "Los Hidalgos",
+            "MUN_CODE": "1805"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Puerto Plata",
+            "PROV_CODE": "18",
+            "MUN_NAME": "Luperón",
+            "MUN_CODE": "1806"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Puerto Plata",
+            "PROV_CODE": "18",
+            "MUN_NAME": "Sosúa",
+            "MUN_CODE": "1807"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Puerto Plata",
+            "PROV_CODE": "18",
+            "MUN_NAME": "Villa Isabela",
+            "MUN_CODE": "1808"
+        },
+        {
+            "REG_NAME": "Cibao Norte",
+            "REG_CODE": "01",
+            "PROV_NAME": "Puerto Plata",
+            "PROV_CODE": "18",
+            "MUN_NAME": "Villa Montellano",
+            "MUN_CODE": "1809"
+        },
+        {
+            "REG_NAME": "Cibao Sur",
+            "REG_CODE": "02",
+            "PROV_NAME": "La Vega",
+            "PROV_CODE": "13",
+            "MUN_NAME": "La Vega",
+            "MUN_CODE": "1301"
+        },
+        {
+            "REG_NAME": "Cibao Sur",
+            "REG_CODE": "02",
+            "PROV_NAME": "La Vega",
+            "PROV_CODE": "13",
+            "MUN_NAME": "Constanza",
+            "MUN_CODE": "1302"
+        },
+        {
+            "REG_NAME": "Cibao Sur",
+            "REG_CODE": "02",
+            "PROV_NAME": "La Vega",
+            "PROV_CODE": "13",
+            "MUN_NAME": "Jarabacoa",
+            "MUN_CODE": "1303"
+        },
+        {
+            "REG_NAME": "Cibao Sur",
+            "REG_CODE": "02",
+            "PROV_NAME": "La Vega",
+            "PROV_CODE": "13",
+            "MUN_NAME": "Jima Abajo",
+            "MUN_CODE": "1304"
+        },
+        {
+            "REG_NAME": "Cibao Sur",
+            "REG_CODE": "02",
+            "PROV_NAME": "Sánchez Ramírez",
+            "PROV_CODE": "24",
+            "MUN_NAME": "Cotuí",
+            "MUN_CODE": "2401"
+        },
+        {
+            "REG_NAME": "Cibao Sur",
+            "REG_CODE": "02",
+            "PROV_NAME": "Sánchez Ramírez",
+            "PROV_CODE": "24",
+            "MUN_NAME": "Cevicos",
+            "MUN_CODE": "2402"
+        },
+        {
+            "REG_NAME": "Cibao Sur",
+            "REG_CODE": "02",
+            "PROV_NAME": "Sánchez Ramírez",
+            "PROV_CODE": "24",
+            "MUN_NAME": "Fantino",
+            "MUN_CODE": "2403"
+        },
+        {
+            "REG_NAME": "Cibao Sur",
+            "REG_CODE": "02",
+            "PROV_NAME": "Sánchez Ramírez",
+            "PROV_CODE": "24",
+            "MUN_NAME": "Villa La Mata",
+            "MUN_CODE": "2404"
+        },
+        {
+            "REG_NAME": "Cibao Sur",
+            "REG_CODE": "02",
+            "PROV_NAME": "Monseñor Nouel",
+            "PROV_CODE": "28",
+            "MUN_NAME": "Bonao",
+            "MUN_CODE": "2801"
+        },
+        {
+            "REG_NAME": "Cibao Sur",
+            "REG_CODE": "02",
+            "PROV_NAME": "Monseñor Nouel",
+            "PROV_CODE": "28",
+            "MUN_NAME": "Maimón",
+            "MUN_CODE": "2802"
+        },
+        {
+            "REG_NAME": "Cibao Sur",
+            "REG_CODE": "02",
+            "PROV_NAME": "Monseñor Nouel",
+            "PROV_CODE": "28",
+            "MUN_NAME": "Piedra Blanca",
+            "MUN_CODE": "2803"
+        },
+        {
+            "REG_NAME": "Cibao Nordeste",
+            "REG_CODE": "03",
+            "PROV_NAME": "Duarte",
+            "PROV_CODE": "06",
+            "MUN_NAME": "San Francisco de Macorís",
+            "MUN_CODE": "0601"
+        },
+        {
+            "REG_NAME": "Cibao Nordeste",
+            "REG_CODE": "03",
+            "PROV_NAME": "Duarte",
+            "PROV_CODE": "06",
+            "MUN_NAME": "Arenoso",
+            "MUN_CODE": "0602"
+        },
+        {
+            "REG_NAME": "Cibao Nordeste",
+            "REG_CODE": "03",
+            "PROV_NAME": "Duarte",
+            "PROV_CODE": "06",
+            "MUN_NAME": "Castillo",
+            "MUN_CODE": "0603"
+        },
+        {
+            "REG_NAME": "Cibao Nordeste",
+            "REG_CODE": "03",
+            "PROV_NAME": "Duarte",
+            "PROV_CODE": "06",
+            "MUN_NAME": "Pimentel",
+            "MUN_CODE": "0604"
+        },
+        {
+            "REG_NAME": "Cibao Nordeste",
+            "REG_CODE": "03",
+            "PROV_NAME": "Duarte",
+            "PROV_CODE": "06",
+            "MUN_NAME": "Villa Riva",
+            "MUN_CODE": "0605"
+        },
+        {
+            "REG_NAME": "Cibao Nordeste",
+            "REG_CODE": "03",
+            "PROV_NAME": "Duarte",
+            "PROV_CODE": "06",
+            "MUN_NAME": "Las Guáranas",
+            "MUN_CODE": "0606"
+        },
+        {
+            "REG_NAME": "Cibao Nordeste",
+            "REG_CODE": "03",
+            "PROV_NAME": "Duarte",
+            "PROV_CODE": "06",
+            "MUN_NAME": "Eugenio María de Hostos",
+            "MUN_CODE": "0607"
+        },
+        {
+            "REG_NAME": "Cibao Nordeste",
+            "REG_CODE": "03",
+            "PROV_NAME": "Samaná",
+            "PROV_CODE": "20",
+            "MUN_NAME": "Samaná",
+            "MUN_CODE": "2001"
+        },
+        {
+            "REG_NAME": "Cibao Nordeste",
+            "REG_CODE": "03",
+            "PROV_NAME": "Samaná",
+            "PROV_CODE": "20",
+            "MUN_NAME": "Sánchez",
+            "MUN_CODE": "2002"
+        },
+        {
+            "REG_NAME": "Cibao Nordeste",
+            "REG_CODE": "03",
+            "PROV_NAME": "Samaná",
+            "PROV_CODE": "20",
+            "MUN_NAME": "Las Terrenas",
+            "MUN_CODE": "2003"
+        },
+        {
+            "REG_NAME": "Cibao Nordeste",
+            "REG_CODE": "03",
+            "PROV_NAME": "Hermanas Mirabal",
+            "PROV_CODE": "19",
+            "MUN_NAME": "Salcedo",
+            "MUN_CODE": "1901"
+        },
+        {
+            "REG_NAME": "Cibao Nordeste",
+            "REG_CODE": "03",
+            "PROV_NAME": "Hermanas Mirabal",
+            "PROV_CODE": "19",
+            "MUN_NAME": "Tenares",
+            "MUN_CODE": "1902"
+        },
+        {
+            "REG_NAME": "Cibao Nordeste",
+            "REG_CODE": "03",
+            "PROV_NAME": "Hermanas Mirabal",
+            "PROV_CODE": "19",
+            "MUN_NAME": "Villa Tapia",
+            "MUN_CODE": "1903"
+        },
+        {
+            "REG_NAME": "Cibao Nordeste",
+            "REG_CODE": "03",
+            "PROV_NAME": "María Trinidad Sánchez",
+            "PROV_CODE": "14",
+            "MUN_NAME": "Nagua",
+            "MUN_CODE": "1401"
+        },
+        {
+            "REG_NAME": "Cibao Nordeste",
+            "REG_CODE": "03",
+            "PROV_NAME": "María Trinidad Sánchez",
+            "PROV_CODE": "14",
+            "MUN_NAME": "Cabrera",
+            "MUN_CODE": "1402"
+        },
+        {
+            "REG_NAME": "Cibao Nordeste",
+            "REG_CODE": "03",
+            "PROV_NAME": "María Trinidad Sánchez",
+            "PROV_CODE": "14",
+            "MUN_NAME": "El Factor",
+            "MUN_CODE": "1403"
+        },
+        {
+            "REG_NAME": "Cibao Nordeste",
+            "REG_CODE": "03",
+            "PROV_NAME": "María Trinidad Sánchez",
+            "PROV_CODE": "14",
+            "MUN_NAME": "Río San Juan",
+            "MUN_CODE": "1404"
+        },
+        {
+            "REG_NAME": "Cibao Noroeste",
+            "REG_CODE": "04",
+            "PROV_NAME": "Montecristi",
+            "PROV_CODE": "15",
+            "MUN_NAME": "Montecristi",
+            "MUN_CODE": "1501"
+        },
+        {
+            "REG_NAME": "Cibao Noroeste",
+            "REG_CODE": "04",
+            "PROV_NAME": "Montecristi",
+            "PROV_CODE": "15",
+            "MUN_NAME": "Castañuelas",
+            "MUN_CODE": "1502"
+        },
+        {
+            "REG_NAME": "Cibao Noroeste",
+            "REG_CODE": "04",
+            "PROV_NAME": "Montecristi",
+            "PROV_CODE": "15",
+            "MUN_NAME": "Guayubín",
+            "MUN_CODE": "1503"
+        },
+        {
+            "REG_NAME": "Cibao Noroeste",
+            "REG_CODE": "04",
+            "PROV_NAME": "Montecristi",
+            "PROV_CODE": "15",
+            "MUN_NAME": "Las Matas de Santa Cruz",
+            "MUN_CODE": "1504"
+        },
+        {
+            "REG_NAME": "Cibao Noroeste",
+            "REG_CODE": "04",
+            "PROV_NAME": "Montecristi",
+            "PROV_CODE": "15",
+            "MUN_NAME": "Pepillo Salcedo",
+            "MUN_CODE": "1505"
+        },
+        {
+            "REG_NAME": "Cibao Noroeste",
+            "REG_CODE": "04",
+            "PROV_NAME": "Montecristi",
+            "PROV_CODE": "15",
+            "MUN_NAME": "Villa Vásquez",
+            "MUN_CODE": "1506"
+        },
+        {
+            "REG_NAME": "Cibao Noroeste",
+            "REG_CODE": "04",
+            "PROV_NAME": "Dajabón",
+            "PROV_CODE": "05",
+            "MUN_NAME": "Dajabón",
+            "MUN_CODE": "0501"
+        },
+        {
+            "REG_NAME": "Cibao Noroeste",
+            "REG_CODE": "04",
+            "PROV_NAME": "Dajabón",
+            "PROV_CODE": "05",
+            "MUN_NAME": "Loma de Cabrera",
+            "MUN_CODE": "0502"
+        },
+        {
+            "REG_NAME": "Cibao Noroeste",
+            "REG_CODE": "04",
+            "PROV_NAME": "Dajabón",
+            "PROV_CODE": "05",
+            "MUN_NAME": "Partido",
+            "MUN_CODE": "0503"
+        },
+        {
+            "REG_NAME": "Cibao Noroeste",
+            "REG_CODE": "04",
+            "PROV_NAME": "Dajabón",
+            "PROV_CODE": "05",
+            "MUN_NAME": "Restauración",
+            "MUN_CODE": "0504"
+        },
+        {
+            "REG_NAME": "Cibao Noroeste",
+            "REG_CODE": "04",
+            "PROV_NAME": "Dajabón",
+            "PROV_CODE": "05",
+            "MUN_NAME": "El Pino",
+            "MUN_CODE": "0505"
+        },
+        {
+            "REG_NAME": "Cibao Noroeste",
+            "REG_CODE": "04",
+            "PROV_NAME": "Santiago Rodríguez",
+            "PROV_CODE": "26",
+            "MUN_NAME": "San Ignacio de Sabaneta",
+            "MUN_CODE": "2601"
+        },
+        {
+            "REG_NAME": "Cibao Noroeste",
+            "REG_CODE": "04",
+            "PROV_NAME": "Santiago Rodríguez",
+            "PROV_CODE": "26",
+            "MUN_NAME": "Villa los Almácigos",
+            "MUN_CODE": "2602"
+        },
+        {
+            "REG_NAME": "Cibao Noroeste",
+            "REG_CODE": "04",
+            "PROV_NAME": "Santiago Rodríguez",
+            "PROV_CODE": "26",
+            "MUN_NAME": "Monción",
+            "MUN_CODE": "2603"
+        },
+        {
+            "REG_NAME": "Cibao Noroeste",
+            "REG_CODE": "04",
+            "PROV_NAME": "Valverde",
+            "PROV_CODE": "27",
+            "MUN_NAME": "Mao",
+            "MUN_CODE": "2701"
+        },
+        {
+            "REG_NAME": "Cibao Noroeste",
+            "REG_CODE": "04",
+            "PROV_NAME": "Valverde",
+            "PROV_CODE": "27",
+            "MUN_NAME": "Esperanza",
+            "MUN_CODE": "2702"
+        },
+        {
+            "REG_NAME": "Cibao Noroeste",
+            "REG_CODE": "04",
+            "PROV_NAME": "Valverde",
+            "PROV_CODE": "27",
+            "MUN_NAME": "Laguna Salada",
+            "MUN_CODE": "2703"
+        },
+        {
+            "REG_NAME": "Valdesia",
+            "REG_CODE": "05",
+            "PROV_NAME": "San Cristóbal",
+            "PROV_CODE": "21",
+            "MUN_NAME": "San Cristóbal",
+            "MUN_CODE": "2101"
+        },
+        {
+            "REG_NAME": "Valdesia",
+            "REG_CODE": "05",
+            "PROV_NAME": "San Cristóbal",
+            "PROV_CODE": "21",
+            "MUN_NAME": "Sabana Grande de Palenque",
+            "MUN_CODE": "2102"
+        },
+        {
+            "REG_NAME": "Valdesia",
+            "REG_CODE": "05",
+            "PROV_NAME": "San Cristóbal",
+            "PROV_CODE": "21",
+            "MUN_NAME": "Bajos de Haina",
+            "MUN_CODE": "2103"
+        },
+        {
+            "REG_NAME": "Valdesia",
+            "REG_CODE": "05",
+            "PROV_NAME": "San Cristóbal",
+            "PROV_CODE": "21",
+            "MUN_NAME": "Cambita Garabitos",
+            "MUN_CODE": "2104"
+        },
+        {
+            "REG_NAME": "Valdesia",
+            "REG_CODE": "05",
+            "PROV_NAME": "San Cristóbal",
+            "PROV_CODE": "21",
+            "MUN_NAME": "Villa Altagracia",
+            "MUN_CODE": "2105"
+        },
+        {
+            "REG_NAME": "Valdesia",
+            "REG_CODE": "05",
+            "PROV_NAME": "San Cristóbal",
+            "PROV_CODE": "21",
+            "MUN_NAME": "Yaguate",
+            "MUN_CODE": "2106"
+        },
+        {
+            "REG_NAME": "Valdesia",
+            "REG_CODE": "05",
+            "PROV_NAME": "San Cristóbal",
+            "PROV_CODE": "21",
+            "MUN_NAME": "San Gregorio de Nigua",
+            "MUN_CODE": "2107"
+        },
+        {
+            "REG_NAME": "Valdesia",
+            "REG_CODE": "05",
+            "PROV_NAME": "San Cristóbal",
+            "PROV_CODE": "21",
+            "MUN_NAME": "Los Cacaos",
+            "MUN_CODE": "2108"
+        },
+        {
+            "REG_NAME": "Valdesia",
+            "REG_CODE": "05",
+            "PROV_NAME": "Peravia",
+            "PROV_CODE": "17",
+            "MUN_NAME": "Baní",
+            "MUN_CODE": "1701"
+        },
+        {
+            "REG_NAME": "Valdesia",
+            "REG_CODE": "05",
+            "PROV_NAME": "Peravia",
+            "PROV_CODE": "17",
+            "MUN_NAME": "Nizao",
+            "MUN_CODE": "1702"
+        },
+        {
+            "REG_NAME": "Valdesia",
+            "REG_CODE": "05",
+            "PROV_NAME": "Peravia",
+            "PROV_CODE": "17",
+            "MUN_NAME": "Matanzas",
+            "MUN_CODE": "1703"
+        },
+        {
+            "REG_NAME": "Valdesia",
+            "REG_CODE": "05",
+            "PROV_NAME": "San José de Ocoa",
+            "PROV_CODE": "31",
+            "MUN_NAME": "San José de Ocoa",
+            "MUN_CODE": "3101"
+        },
+        {
+            "REG_NAME": "Valdesia",
+            "REG_CODE": "05",
+            "PROV_NAME": "San José de Ocoa",
+            "PROV_CODE": "31",
+            "MUN_NAME": "Sabana Larga",
+            "MUN_CODE": "3102"
+        },
+        {
+            "REG_NAME": "Valdesia",
+            "REG_CODE": "05",
+            "PROV_NAME": "San José de Ocoa",
+            "PROV_CODE": "31",
+            "MUN_NAME": "Rancho Arriba",
+            "MUN_CODE": "3103"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Barahona",
+            "PROV_CODE": "04",
+            "MUN_NAME": "Barahona",
+            "MUN_CODE": "0401"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Barahona",
+            "PROV_CODE": "04",
+            "MUN_NAME": "Cabral",
+            "MUN_CODE": "0402"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Barahona",
+            "PROV_CODE": "04",
+            "MUN_NAME": "Enriquillo",
+            "MUN_CODE": "0403"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Barahona",
+            "PROV_CODE": "04",
+            "MUN_NAME": "Paraíso",
+            "MUN_CODE": "0404"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Barahona",
+            "PROV_CODE": "04",
+            "MUN_NAME": "Vicente Noble",
+            "MUN_CODE": "0405"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Barahona",
+            "PROV_CODE": "04",
+            "MUN_NAME": "El Peñón",
+            "MUN_CODE": "0406"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Barahona",
+            "PROV_CODE": "04",
+            "MUN_NAME": "La Ciénaga",
+            "MUN_CODE": "0407"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Barahona",
+            "PROV_CODE": "04",
+            "MUN_NAME": "Fundación",
+            "MUN_CODE": "0408"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Barahona",
+            "PROV_CODE": "04",
+            "MUN_NAME": "Las Salinas",
+            "MUN_CODE": "0409"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Barahona",
+            "PROV_CODE": "04",
+            "MUN_NAME": "Polo",
+            "MUN_CODE": "0410"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Barahona",
+            "PROV_CODE": "04",
+            "MUN_NAME": "Jaquimeyes",
+            "MUN_CODE": "0411"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Bahoruco",
+            "PROV_CODE": "03",
+            "MUN_NAME": "Neiba",
+            "MUN_CODE": "0301"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Bahoruco",
+            "PROV_CODE": "03",
+            "MUN_NAME": "Galván",
+            "MUN_CODE": "0302"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Bahoruco",
+            "PROV_CODE": "03",
+            "MUN_NAME": "Tamayo",
+            "MUN_CODE": "0303"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Bahoruco",
+            "PROV_CODE": "03",
+            "MUN_NAME": "Villa Jaragua",
+            "MUN_CODE": "0304"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Bahoruco",
+            "PROV_CODE": "03",
+            "MUN_NAME": "Los Ríos",
+            "MUN_CODE": "0305"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Independencia",
+            "PROV_CODE": "10",
+            "MUN_NAME": "Jimaní",
+            "MUN_CODE": "1001"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Independencia",
+            "PROV_CODE": "10",
+            "MUN_NAME": "Duvergé",
+            "MUN_CODE": "1002"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Independencia",
+            "PROV_CODE": "10",
+            "MUN_NAME": "La Descubierta",
+            "MUN_CODE": "1003"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Independencia",
+            "PROV_CODE": "10",
+            "MUN_NAME": "Postrer Río",
+            "MUN_CODE": "1004"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Independencia",
+            "PROV_CODE": "10",
+            "MUN_NAME": "Cristóbal",
+            "MUN_CODE": "1005"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Independencia",
+            "PROV_CODE": "10",
+            "MUN_NAME": "Mella",
+            "MUN_CODE": "1006"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Pedernales",
+            "PROV_CODE": "16",
+            "MUN_NAME": "Pedernales",
+            "MUN_CODE": "1601"
+        },
+        {
+            "REG_NAME": "Enriquillo",
+            "REG_CODE": "06",
+            "PROV_NAME": "Pedernales",
+            "PROV_CODE": "16",
+            "MUN_NAME": "Oviedo",
+            "MUN_CODE": "1602"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "San Juan",
+            "PROV_CODE": "22",
+            "MUN_NAME": "San Juan",
+            "MUN_CODE": "2201"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "San Juan",
+            "PROV_CODE": "22",
+            "MUN_NAME": "Bohechío",
+            "MUN_CODE": "2202"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "San Juan",
+            "PROV_CODE": "22",
+            "MUN_NAME": "El Cercado",
+            "MUN_CODE": "2203"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "San Juan",
+            "PROV_CODE": "22",
+            "MUN_NAME": "Juan de Herrera",
+            "MUN_CODE": "2204"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "San Juan",
+            "PROV_CODE": "22",
+            "MUN_NAME": "Las Matas de Farfán",
+            "MUN_CODE": "2205"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "San Juan",
+            "PROV_CODE": "22",
+            "MUN_NAME": "Vallejuelo",
+            "MUN_CODE": "2206"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "Azua",
+            "PROV_CODE": "02",
+            "MUN_NAME": "Azua",
+            "MUN_CODE": "0201"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "Azua",
+            "PROV_CODE": "02",
+            "MUN_NAME": "Las Charcas",
+            "MUN_CODE": "0202"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "Azua",
+            "PROV_CODE": "02",
+            "MUN_NAME": "Las Yayas de Viajama",
+            "MUN_CODE": "0203"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "Azua",
+            "PROV_CODE": "02",
+            "MUN_NAME": "Padre las Casas",
+            "MUN_CODE": "0204"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "Azua",
+            "PROV_CODE": "02",
+            "MUN_NAME": "Peralta",
+            "MUN_CODE": "0205"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "Azua",
+            "PROV_CODE": "02",
+            "MUN_NAME": "Sabana Yegua",
+            "MUN_CODE": "0206"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "Azua",
+            "PROV_CODE": "02",
+            "MUN_NAME": "Pueblo Viejo",
+            "MUN_CODE": "0207"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "Azua",
+            "PROV_CODE": "02",
+            "MUN_NAME": "Tábara Arriba",
+            "MUN_CODE": "0208"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "Azua",
+            "PROV_CODE": "02",
+            "MUN_NAME": "Guayabal",
+            "MUN_CODE": "0209"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "Azua",
+            "PROV_CODE": "02",
+            "MUN_NAME": "Estebanía",
+            "MUN_CODE": "0210"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "Elías Piña",
+            "PROV_CODE": "07",
+            "MUN_NAME": "Comendador",
+            "MUN_CODE": "0701"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "Elías Piña",
+            "PROV_CODE": "07",
+            "MUN_NAME": "Bánica",
+            "MUN_CODE": "0702"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "Elías Piña",
+            "PROV_CODE": "07",
+            "MUN_NAME": "El Llano",
+            "MUN_CODE": "0703"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "Elías Piña",
+            "PROV_CODE": "07",
+            "MUN_NAME": "Hondo Valle",
+            "MUN_CODE": "0704"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "Elías Piña",
+            "PROV_CODE": "07",
+            "MUN_NAME": "Pedro Santana",
+            "MUN_CODE": "0705"
+        },
+        {
+            "REG_NAME": "El Valle",
+            "REG_CODE": "07",
+            "PROV_NAME": "Elías Piña",
+            "PROV_CODE": "07",
+            "MUN_NAME": "Juan Santiago",
+            "MUN_CODE": "0706"
+        },
+        {
+            "REG_NAME": "Yuma",
+            "REG_CODE": "08",
+            "PROV_NAME": "El Seibo",
+            "PROV_CODE": "08",
+            "MUN_NAME": "El Seibo",
+            "MUN_CODE": "0801"
+        },
+        {
+            "REG_NAME": "Yuma",
+            "REG_CODE": "08",
+            "PROV_NAME": "El Seibo",
+            "PROV_CODE": "08",
+            "MUN_NAME": "Miches",
+            "MUN_CODE": "0802"
+        },
+        {
+            "REG_NAME": "Yuma",
+            "REG_CODE": "08",
+            "PROV_NAME": "La Romana",
+            "PROV_CODE": "12",
+            "MUN_NAME": "La Romana",
+            "MUN_CODE": "1201"
+        },
+        {
+            "REG_NAME": "Yuma",
+            "REG_CODE": "08",
+            "PROV_NAME": "La Romana",
+            "PROV_CODE": "12",
+            "MUN_NAME": "Guaymate",
+            "MUN_CODE": "1202"
+        },
+        {
+            "REG_NAME": "Yuma",
+            "REG_CODE": "08",
+            "PROV_NAME": "La Romana",
+            "PROV_CODE": "12",
+            "MUN_NAME": "Villa Hermosa",
+            "MUN_CODE": "1203"
+        },
+        {
+            "REG_NAME": "Yuma",
+            "REG_CODE": "08",
+            "PROV_NAME": "La Altagracia",
+            "PROV_CODE": "11",
+            "MUN_NAME": "Higüey",
+            "MUN_CODE": "1101"
+        },
+        {
+            "REG_NAME": "Yuma",
+            "REG_CODE": "08",
+            "PROV_NAME": "La Altagracia",
+            "PROV_CODE": "11",
+            "MUN_NAME": "San Rafael del Yuma",
+            "MUN_CODE": "1102"
+        },
+        {
+            "REG_NAME": "Higüamo",
+            "REG_CODE": "09",
+            "PROV_NAME": "San Pedro de Macorís",
+            "PROV_CODE": "23",
+            "MUN_NAME": "San Pedro de Macorís",
+            "MUN_CODE": "2301"
+        },
+        {
+            "REG_NAME": "Higüamo",
+            "REG_CODE": "09",
+            "PROV_NAME": "San Pedro de Macorís",
+            "PROV_CODE": "23",
+            "MUN_NAME": "Los Llanos",
+            "MUN_CODE": "2302"
+        },
+        {
+            "REG_NAME": "Higüamo",
+            "REG_CODE": "09",
+            "PROV_NAME": "San Pedro de Macorís",
+            "PROV_CODE": "23",
+            "MUN_NAME": "Ramón Santana",
+            "MUN_CODE": "2303"
+        },
+        {
+            "REG_NAME": "Higüamo",
+            "REG_CODE": "09",
+            "PROV_NAME": "San Pedro de Macorís",
+            "PROV_CODE": "23",
+            "MUN_NAME": "Consuelo",
+            "MUN_CODE": "2304"
+        },
+        {
+            "REG_NAME": "Higüamo",
+            "REG_CODE": "09",
+            "PROV_NAME": "San Pedro de Macorís",
+            "PROV_CODE": "23",
+            "MUN_NAME": "Quisqueya",
+            "MUN_CODE": "2305"
+        },
+        {
+            "REG_NAME": "Higüamo",
+            "REG_CODE": "09",
+            "PROV_NAME": "San Pedro de Macorís",
+            "PROV_CODE": "23",
+            "MUN_NAME": "Guayacanes",
+            "MUN_CODE": "2306"
+        },
+        {
+            "REG_NAME": "Higüamo",
+            "REG_CODE": "09",
+            "PROV_NAME": "Monte Plata",
+            "PROV_CODE": "30",
+            "MUN_NAME": "Monte Plata",
+            "MUN_CODE": "3001"
+        },
+        {
+            "REG_NAME": "Higüamo",
+            "REG_CODE": "09",
+            "PROV_NAME": "Monte Plata",
+            "PROV_CODE": "30",
+            "MUN_NAME": "Bayaguana",
+            "MUN_CODE": "3002"
+        },
+        {
+            "REG_NAME": "Higüamo",
+            "REG_CODE": "09",
+            "PROV_NAME": "Monte Plata",
+            "PROV_CODE": "30",
+            "MUN_NAME": "Sabana Grande de Boyá",
+            "MUN_CODE": "3003"
+        },
+        {
+            "REG_NAME": "Higüamo",
+            "REG_CODE": "09",
+            "PROV_NAME": "Monte Plata",
+            "PROV_CODE": "30",
+            "MUN_NAME": "Yamasá",
+            "MUN_CODE": "3004"
+        },
+        {
+            "REG_NAME": "Higüamo",
+            "REG_CODE": "09",
+            "PROV_NAME": "Monte Plata",
+            "PROV_CODE": "30",
+            "MUN_NAME": "Peralvillo",
+            "MUN_CODE": "3005"
+        },
+        {
+            "REG_NAME": "Higüamo",
+            "REG_CODE": "09",
+            "PROV_NAME": "Hato Mayor",
+            "PROV_CODE": "29",
+            "MUN_NAME": "Hato Mayor",
+            "MUN_CODE": "2901"
+        },
+        {
+            "REG_NAME": "Higüamo",
+            "REG_CODE": "09",
+            "PROV_NAME": "Hato Mayor",
+            "PROV_CODE": "29",
+            "MUN_NAME": "Sabana de la Mar",
+            "MUN_CODE": "2902"
+        },
+        {
+            "REG_NAME": "Higüamo",
+            "REG_CODE": "09",
+            "PROV_NAME": "Hato Mayor",
+            "PROV_CODE": "29",
+            "MUN_NAME": "El Valle",
+            "MUN_CODE": "2903"
+        },
+        {
+            "REG_NAME": "Ozama",
+            "REG_CODE": "10",
+            "PROV_NAME": "Santo Domingo",
+            "PROV_CODE": "32",
+            "MUN_NAME": "Santo Domingo Este",
+            "MUN_CODE": "3201"
+        },
+        {
+            "REG_NAME": "Ozama",
+            "REG_CODE": "10",
+            "PROV_NAME": "Santo Domingo",
+            "PROV_CODE": "32",
+            "MUN_NAME": "Santo Domingo Oeste",
+            "MUN_CODE": "3202"
+        },
+        {
+            "REG_NAME": "Ozama",
+            "REG_CODE": "10",
+            "PROV_NAME": "Santo Domingo",
+            "PROV_CODE": "32",
+            "MUN_NAME": "Santo Domingo Norte",
+            "MUN_CODE": "3203"
+        },
+        {
+            "REG_NAME": "Ozama",
+            "REG_CODE": "10",
+            "PROV_NAME": "Santo Domingo",
+            "PROV_CODE": "32",
+            "MUN_NAME": "Boca Chica",
+            "MUN_CODE": "3204"
+        },
+        {
+            "REG_NAME": "Ozama",
+            "REG_CODE": "10",
+            "PROV_NAME": "Santo Domingo",
+            "PROV_CODE": "32",
+            "MUN_NAME": "San Antonio de Guerra",
+            "MUN_CODE": "3205"
+        },
+        {
+            "REG_NAME": "Ozama",
+            "REG_CODE": "10",
+            "PROV_NAME": "Santo Domingo",
+            "PROV_CODE": "32",
+            "MUN_NAME": "Los Alcarrizos",
+            "MUN_CODE": "3206"
+        },
+        {
+            "REG_NAME": "Ozama",
+            "REG_CODE": "10",
+            "PROV_NAME": "Santo Domingo",
+            "PROV_CODE": "32",
+            "MUN_NAME": "Pedro Brand",
+            "MUN_CODE": "3207"
+        },
+        {
+            "REG_NAME": "Ozama",
+            "REG_CODE": "10",
+            "PROV_NAME": "Distrito Nacional",
+            "PROV_CODE": "01",
+            "MUN_NAME": "Santo Domingo de Guzmán",
+            "MUN_CODE": "0101"
+        }
+    ]
+}
