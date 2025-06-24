@@ -34,8 +34,8 @@ jobs:
 
       - name: Instalar AWS CLI
         run: |
-          sudo apt-get update
-          sudo apt-get install -y awscli
+          pip install --upgrade pip
+          pip install awscli
 
       - name: Subir a Cloudflare R2
         env:
