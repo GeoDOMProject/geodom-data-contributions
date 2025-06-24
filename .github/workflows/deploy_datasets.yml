@@ -1,0 +1,101 @@
+# .github/workflows/deploy_datasets.yml
+
+name: Validar y Desplegar Datasets de GeoDOM
+
+on:
+  # Se activa en Pull Requests que apuntan a la rama main
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'datasets/**' # Solo si los cambios están en la carpeta de datasets
+  
+  # También se activa cuando se hace push (merge) a la rama main
+  push:
+    branches: [ main ]
+    paths:
+      - 'datasets/**'
+
+jobs:
+  # JOB 1: VALIDACIÓN (Solo para Pull Requests)
+  validate:
+    name: Validar Archivos del Pull Request
+    # Condición: Este job SOLO se ejecuta si el evento que activó el workflow es un 'pull_request'.
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del Repositorio
+        uses: actions/checkout@v4
+        # 'fetch-depth: 0' es necesario para poder comparar con 'origin/main'
+        with:
+          fetch-depth: 0
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Validar Archivos Modificados
+        run: |
+          # Compara la rama actual (del PR) con la rama 'main'
+          MODIFIED_FILES=$(git diff --name-only origin/main...HEAD | grep '^datasets/.*\.\(json\|csv\|geojson\|topojson\|xlsx\)$' || true)
+          
+          if [ -z "$MODIFIED_FILES" ]; then
+            echo "No hay archivos de dataset relevantes modificados para validar."
+            exit 0
+          fi
+          
+          echo "Validando los siguientes archivos:"
+          echo "$MODIFIED_FILES"
+
+          # Aquí asumimos que tu script de validación existe y funciona
+          for file in $MODIFIED_FILES; do
+            # Solo validamos los archivos de metadatos .json por ahora, pero podrías adaptar esto
+            if [[ "$file" == *.json ]]; then
+              echo "Validando metadatos en $file"
+              python validate_geodom_dataset.py "$file"
+            fi
+          done
+          echo "Validación completada."
+
+  # JOB 2: SUBIDA A R2 (Solo para Push a Main)
+  upload:
+    name: Subir Archivos a Cloudflare R2
+    # Condición: Este job SOLO se ejecuta si el evento es un 'push' a la rama 'main'.
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    # 'needs: validate' se podría añadir si quieres asegurar que la validación pase primero, 
+    # pero al separar por evento (PR vs Push) esto ya se logra conceptualmente.
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del Repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar AWS CLI
+        run: pip install awscli
+
+      - name: Subir Archivos Modificados a R2
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+          R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
+        run: |
+          # Obtenemos los archivos que cambiaron en ESTE PUSH específico a main
+          MODIFIED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '^datasets/.*\.\(json\|csv\|geojson\|topojson\|xlsx\)$' || true)
+
+          if [ -z "$MODIFIED_FILES" ]; then
+            echo "No hay archivos de dataset relevantes en este push para subir."
+            exit 0
+          fi
+          
+          echo "Subiendo los siguientes archivos a R2:"
+          echo "$MODIFIED_FILES"
+
+          for file in $MODIFIED_FILES; do
+            # Extrae solo el nombre del archivo para subirlo a una carpeta plana "datasets/"
+            filename=$(basename "$file")
+            dest_path="datasets/$filename"
+            
+            echo "Subiendo '$file' a R2 como '$dest_path'"
+            aws s3 cp "$file" "s3://$R2_BUCKET/$dest_path" --endpoint-url "$R2_ENDPOINT"
+          done
+          echo "Subida completada."
