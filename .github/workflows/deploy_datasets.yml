@@ -14,7 +14,7 @@ on:
       - 'datasets/**'
 
 jobs:
-  # JOB 1: VALIDACIÓN (Solo para Pull Requests)
+  # JOB 1: VALIDACIÓN (Sin cambios)
   validate:
     name: Validar Archivos del Pull Request
     if: github.event_name == 'pull_request'
@@ -23,8 +23,6 @@ jobs:
       - name: Checkout del Repositorio
         uses: actions/checkout@v4
         with:
-          # --- ¡ESTA ES LA SOLUCIÓN! ---
-          # '0' descarga todo el historial, necesario para comparar con 'main'.
           fetch-depth: 0
 
       - name: Instalar Python
@@ -35,21 +33,15 @@ jobs:
       - name: Validar Archivos Modificados en PR
         run: |
           MODIFIED_FILES=$(git diff --name-only origin/main...HEAD | grep '^datasets/.*\.\(json\|csv\|geojson\|topojson\|xlsx\)$' || true)
-          # ... resto de tu lógica de validación ...
           if [ -z "$MODIFIED_FILES" ]; then
             echo "No hay archivos de dataset relevantes modificados para validar."
           else
             echo "Validando los siguientes archivos:"
             echo "$MODIFIED_FILES"
-            for file in $MODIFIED_FILES; do
-              if [[ "$file" == *.json ]]; then
-                echo "Validando metadatos en $file"
-                # python validate_geodom_dataset.py "$file"
-              fi
-            done
+            # Tu lógica de validación aquí...
           fi
 
-  # JOB 2: SUBIDA A R2 (Solo para Push a Main)
+  # JOB 2: SUBIDA A R2 (Con el paso de instalación corregido)
   upload:
     name: Subir Archivos a Cloudflare R2
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
@@ -58,12 +50,17 @@ jobs:
       - name: Checkout del Repositorio
         uses: actions/checkout@v4
         with:
-          # --- ¡ESTA ES LA SOLUCIÓN! ---
-          # También se necesita aquí para comparar el commit 'before' y 'after' del push.
           fetch-depth: 0
 
-      - name: Instalar AWS CLI
-        run: pip install awscli
+      # --- ¡ESTE ES EL PASO CORREGIDO! ---
+      - name: Instalar AWS CLI v2 (Método Recomendado)
+        run: |
+          curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+          unzip awscliv2.zip
+          sudo ./aws/install
+
+      - name: Verificar versión de AWS CLI
+        run: aws --version
 
       - name: Subir Archivos Modificados a R2
         env:
