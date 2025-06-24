@@ -78,6 +78,17 @@ Por cada dataset que desees contribuir, necesitarás dos archivos principales:
     2.  Subir tu dataset a nuestro almacenamiento en Cloudflare R2.
     3.  (Eventualmente) Actualizar el listado de datasets en el [geodom.adatar.do](geodom.adatar.do/dataset).
 
+## ⚠️ Importante: Nombres únicos de datasets
+
+> **Todos los archivos JSON de datasets deben tener un nombre único a nivel global en el repositorio.**
+> 
+> - El nombre del archivo `.json` y el de su carpeta deben coincidir (ejemplo: `datasets/mi_dataset/mi_dataset.json`).
+> - No puede haber dos archivos `.json` con el mismo nombre, aunque estén en carpetas distintas.
+> - Esto es necesario porque todos los datasets se almacenan juntos en la carpeta `datasets/` del almacenamiento en la nube (Cloudflare R2), sin subcarpetas.
+> - Si subes un archivo con un nombre ya existente, sobrescribirás el dataset anterior.
+
+Asegúrate de elegir nombres descriptivos y únicos para tus datasets.
+
 ## Criterios de aceptación (Generales)
 
 * **Relevancia:** El dataset debe ser pertinente para la República Dominicana.
