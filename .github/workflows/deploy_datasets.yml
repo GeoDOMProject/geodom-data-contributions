@@ -38,7 +38,10 @@ jobs:
           else
             echo "Validando los siguientes archivos:"
             echo "$MODIFIED_FILES"
-            # Tu lógica de validación aquí...
+            for file in $MODIFIED; do
+              echo "Validando $file"
+              python validate_geodom_dataset.py "$file"
+            done
           fi
 
   # JOB 2: SUBIDA A R2 (Con el paso de instalación corregido)
