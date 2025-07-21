@@ -110,5 +110,6 @@ Al contribuir un dataset, se espera que la licencia del mismo esté claramente e
 
 * Si tienes dudas sobre el proceso de contribución o necesitas ayuda técnica (especialmente si no estás familiarizado con Git/GitHub), abre un "issue" en [este repositorio](https://github.com/GeoDOMProject/geodom-data-contributions/issues).
 * También puedes contactar al equipo de GeoDOM en [geodom@adatar.do](mailto:geodom@adatar.do).
+* Para discusiones más generales sobre GeoDOM, únete a nuestro [grupo de Telegram de Adatar](https://t.me/AdatarGroup) donde la comunidad conversa sobre GeoDom y otros proyectos de datos abiertos.
 
 **¡Gracias por considerar contribuir a GeoDOM!**
