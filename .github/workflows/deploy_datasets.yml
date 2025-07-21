@@ -32,13 +32,23 @@ jobs:
 
       - name: Validar Archivos Modificados en PR
         run: |
-          MODIFIED_FILES=$(git diff --name-only origin/main...HEAD | grep '^datasets/.*\.\(json\|csv\|geojson\|topojson\|xlsx\)$' || true)
+          # Verificar si estamos en un contexto de PR
+          if [ -n "${{ github.event.pull_request.base.sha }}" ] && [ "${{ github.event.pull_request.base.sha }}" != "null" ]; then
+            # En un PR real
+            echo "Usando PR context para detectar cambios..."
+            MODIFIED_FILES=$(git diff --name-only origin/main...HEAD | grep '^datasets/.*\.\(json\|csv\|geojson\|topojson\|xlsx\)$' || true)
+          else
+            # En entorno local (act) o cuando las variables no están disponibles
+            echo "Usando HEAD~1 para detectar cambios en el último commit..."
+            MODIFIED_FILES=$(git diff --name-only HEAD~1 HEAD | grep '^datasets/.*\.\(json\|csv\|geojson\|topojson\|xlsx\)$' || true)
+          fi
+          
           if [ -z "$MODIFIED_FILES" ]; then
             echo "No hay archivos de dataset relevantes modificados para validar."
           else
             echo "Validando los siguientes archivos:"
             echo "$MODIFIED_FILES"
-            for file in $MODIFIED; do
+            for file in $MODIFIED_FILES; do
               echo "Validando $file"
               python validate_geodom_dataset.py "$file"
             done
@@ -71,7 +81,16 @@ jobs:
           R2_BUCKET: ${{ secrets.R2_BUCKET }}
           R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
         run: |
-          MODIFIED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '^datasets/.*\.\(json\|csv\|geojson\|topojson\|xlsx\)$' || true)
+          # Verificar si las variables de GitHub están disponibles
+          if [ -n "${{ github.event.before }}" ] && [ "${{ github.event.before }}" != "null" ]; then
+            # En GitHub Actions real
+            echo "Usando GitHub event context para detectar cambios..."
+            MODIFIED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '^datasets/.*\.\(json\|csv\|geojson\|topojson\|xlsx\)$' || true)
+          else
+            # En entorno local (act) o cuando las variables no están disponibles
+            echo "Usando HEAD~1 para detectar cambios en el último commit..."
+            MODIFIED_FILES=$(git diff --name-only HEAD~1 HEAD | grep '^datasets/.*\.\(json\|csv\|geojson\|topojson\|xlsx\)$' || true)
+          fi
 
           if [ -z "$MODIFIED_FILES" ]; then
             echo "No hay archivos de dataset relevantes en este push para subir."
