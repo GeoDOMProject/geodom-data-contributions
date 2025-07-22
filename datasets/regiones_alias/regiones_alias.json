@@ -1,0 +1,225 @@
+{
+  "metadata": {
+    "title": "Listado de aliases de las regiones de la República Dominicana",
+    "description": "Este archivo contiene un listado de las regiones de la República Dominicana junto con sus alias y códigos según la Ley 345-22.",
+    "author": "Daniel E. de la Rosa",
+    "dateCreated": "2025-07-21",
+    "dateModified": "2025-07-21",
+    "tags": ["regiones", "alias", "república dominicana", "ley 345-22"],
+    "spatialCoverage": "República Dominicana",
+    "temporalCoverage": "2025 - Presente",
+    "license": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+  },
+  "data": [
+    {
+      "REG_ID": "00",
+      "REG_CODE": "NA",
+      "REG_NAME": "_NA_"
+    },
+    {
+      "REG_ID": "01",
+      "REG_CODE": "CNT",
+      "REG_NAME": "Cibao Norte"
+    },
+    {
+      "REG_ID": "01",
+      "REG_CODE": "CNT",
+      "REG_NAME": "Región Cibao Norte"
+    },
+    {
+      "REG_ID": "01",
+      "REG_CODE": "CNT",
+      "REG_NAME": "Norte"
+    },
+    {
+      "REG_ID": "01",
+      "REG_CODE": "CNT",
+      "REG_NAME": "Cibao del Norte"
+    },
+    {
+      "REG_ID": "02",
+      "REG_CODE": "CSR",
+      "REG_NAME": "Cibao Sur"
+    },
+    {
+      "REG_ID": "02",
+      "REG_CODE": "CSR",
+      "REG_NAME": "Región Cibao Sur"
+    },
+    {
+      "REG_ID": "02",
+      "REG_CODE": "CSR",
+      "REG_NAME": "Sur"
+    },
+    {
+      "REG_ID": "02",
+      "REG_CODE": "CSR",
+      "REG_NAME": "Cibao Central"
+    },
+    {
+      "REG_ID": "02",
+      "REG_CODE": "CSR",
+      "REG_NAME": "Central"
+    },
+    {
+      "REG_ID": "03",
+      "REG_CODE": "CND",
+      "REG_NAME": "Cibao Nordeste"
+    },
+    {
+      "REG_ID": "03",
+      "REG_CODE": "CND",
+      "REG_NAME": "Región Cibao Nordeste"
+    },
+    {
+      "REG_ID": "03",
+      "REG_CODE": "CND",
+      "REG_NAME": "Nordeste"
+    },
+    {
+      "REG_ID": "03",
+      "REG_CODE": "CND",
+      "REG_NAME": "Cibao del Nordeste"
+    },
+    {
+      "REG_ID": "04",
+      "REG_CODE": "CNO",
+      "REG_NAME": "Cibao Noroeste"
+    },
+    {
+      "REG_ID": "04",
+      "REG_CODE": "CNO",
+      "REG_NAME": "Región Cibao Noroeste"
+    },
+    {
+      "REG_ID": "04",
+      "REG_CODE": "CNO",
+      "REG_NAME": "Noroeste"
+    },
+    {
+      "REG_ID": "04",
+      "REG_CODE": "CNO",
+      "REG_NAME": "Cibao del Noroeste"
+    },
+    {
+      "REG_ID": "05",
+      "REG_CODE": "VAL",
+      "REG_NAME": "Valdesia"
+    },
+    {
+      "REG_ID": "05",
+      "REG_CODE": "VAL",
+      "REG_NAME": "Región Valdesia"
+    },
+    {
+      "REG_ID": "05",
+      "REG_CODE": "VAL",
+      "REG_NAME": "Valle de San Juan"
+    },
+    {
+      "REG_ID": "06",
+      "REG_CODE": "ENR",
+      "REG_NAME": "Enriquillo"
+    },
+    {
+      "REG_ID": "06",
+      "REG_CODE": "ENR",
+      "REG_NAME": "Región Enriquillo"
+    },
+    {
+      "REG_ID": "06",
+      "REG_CODE": "ENR",
+      "REG_NAME": "Barahona"
+    },
+    {
+      "REG_ID": "06",
+      "REG_CODE": "ENR",
+      "REG_NAME": "Región Sur"
+    },
+    {
+      "REG_ID": "07",
+      "REG_CODE": "EVA",
+      "REG_NAME": "El Valle"
+    },
+    {
+      "REG_ID": "07",
+      "REG_CODE": "EVA",
+      "REG_NAME": "Región El Valle"
+    },
+    {
+      "REG_ID": "07",
+      "REG_CODE": "EVA",
+      "REG_NAME": "Valle"
+    },
+    {
+      "REG_ID": "07",
+      "REG_CODE": "EVA",
+      "REG_NAME": "San Juan"
+    },
+    {
+      "REG_ID": "08",
+      "REG_CODE": "YUM",
+      "REG_NAME": "Del Yuma"
+    },
+    {
+      "REG_ID": "08",
+      "REG_CODE": "YUM",
+      "REG_NAME": "Región Del Yuma"
+    },
+    {
+      "REG_ID": "08",
+      "REG_CODE": "YUM",
+      "REG_NAME": "Yuma"
+    },
+    {
+      "REG_ID": "08",
+      "REG_CODE": "YUM",
+      "REG_NAME": "Este"
+    },
+    {
+      "REG_ID": "08",
+      "REG_CODE": "YUM",
+      "REG_NAME": "Región Este"
+    },
+    {
+      "REG_ID": "09",
+      "REG_CODE": "HIG",
+      "REG_NAME": "Higuamo"
+    },
+    {
+      "REG_ID": "09",
+      "REG_CODE": "HIG",
+      "REG_NAME": "Región Higuamo"
+    },
+    {
+      "REG_ID": "09",
+      "REG_CODE": "HIG",
+      "REG_NAME": "Monte Plata"
+    },
+    {
+      "REG_ID": "10",
+      "REG_CODE": "OZM",
+      "REG_NAME": "Ozama"
+    },
+    {
+      "REG_ID": "10",
+      "REG_CODE": "OZM",
+      "REG_NAME": "Región Ozama"
+    },
+    {
+      "REG_ID": "10",
+      "REG_CODE": "OZM",
+      "REG_NAME": "Distrito Nacional"
+    },
+    {
+      "REG_ID": "10",
+      "REG_CODE": "OZM",
+      "REG_NAME": "Gran Santo Domingo"
+    },
+    {
+      "REG_ID": "10",
+      "REG_CODE": "OZM",
+      "REG_NAME": "Metropolitana"
+    }
+  ]
+}
