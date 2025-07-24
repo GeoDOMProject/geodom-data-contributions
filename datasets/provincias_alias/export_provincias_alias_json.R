@@ -7,8 +7,8 @@ dr_province <- tribble(
     "DN", "Distrito Nacional", "01",
     "AZU", "Azua", "02",
     "AZU", "Azua de Compostela", "02",
-    "BAH", "Baoruco", "03",
     "BAH", "Bahoruco", "03",
+    "BAH", "Baoruco", "03",
     "BAR", "Barahona", "04",
     "DAJ", "Dajabón", "05",
     "DUA", "Duarte", "06",
@@ -22,6 +22,7 @@ dr_province <- tribble(
     "LV", "La Vega", "13",
     "MTS", "María Trinidad Sánchez", "14",
     "MC", "Monte Cristi", "15",
+    "MC", "Montecristi", "15",
     "PED", "Pedernales", "16",
     "PER", "Peravia", "17",
     "PP", "Puerto Plata", "18",
@@ -67,4 +68,4 @@ output <- list(
 )
 
 # Write to a JSON file
-write_json(output, here::here("geodom-data-contributions", "datasets", "provincias_alias", "provincias_alias.json"), pretty = TRUE, auto_unbox = TRUE)
+write_json(output, "provincias_alias.json", pretty = TRUE, auto_unbox = TRUE)
