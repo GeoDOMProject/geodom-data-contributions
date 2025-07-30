@@ -68,4 +68,4 @@ output <- list(
 )
 
 # Write to a JSON file
-write_json(output, "provincias_alias.json", pretty = TRUE, auto_unbox = TRUE)
+write_json(output, here::here("geodom-data-contributions", "datasets", "provincias_alias", "provincias_alias.json"), pretty = TRUE, auto_unbox = TRUE)
