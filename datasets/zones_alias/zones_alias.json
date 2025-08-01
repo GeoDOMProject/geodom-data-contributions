@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "title": "Listado de alias de las zonas de residencia de la República Dominicana",
+    "description": "Este archivo contiene un listado de las zonas de residencia (urbana/rural) junto con sus alias y variantes comunes utilizadas en encuestas y datos administrativos.",
+    "author": "Daniel E. de la Rosa",
+    "dateCreated": "2025-08-01",
+    "dateModified": "2025-08-01",
+    "tags": ["zonas", "residencia", "urbana", "rural", "alias", "república dominicana"],
+    "spatialCoverage": "República Dominicana",
+    "temporalCoverage": "2025 - Presente",
+    "license": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+  },
+  "data": [
+    {
+      "ZONE_ID": "00",
+      "ZONE_CODE": "NA",
+      "ZONE_NAME": "_NA_",
+      "TOPONIMIA": "_NA_"
+    },
+    {
+      "ZONE_ID": "01",
+      "ZONE_CODE": "URB",
+      "ZONE_NAME": "Urbana",
+      "TOPONIMIA": "Urbana"
+    },
+    {
+      "ZONE_ID": "01",
+      "ZONE_CODE": "URB",
+      "ZONE_NAME": "Zona Urbana",
+      "TOPONIMIA": "Urbana"
+    },
+    {
+      "ZONE_ID": "01",
+      "ZONE_CODE": "URB",
+      "ZONE_NAME": "Area Urbana",
+      "TOPONIMIA": "Urbana"
+    },
+    {
+      "ZONE_ID": "01",
+      "ZONE_CODE": "URB",
+      "ZONE_NAME": "Área Urbana",
+      "TOPONIMIA": "Urbana"
+    },
+    {
+      "ZONE_ID": "01",
+      "ZONE_CODE": "URB",
+      "ZONE_NAME": "Urbano",
+      "TOPONIMIA": "Urbana"
+    },
+    {
+      "ZONE_ID": "01",
+      "ZONE_CODE": "URB",
+      "ZONE_NAME": "Ciudad",
+      "TOPONIMIA": "Urbana"
+    },
+    {
+      "ZONE_ID": "01",
+      "ZONE_CODE": "URB",
+      "ZONE_NAME": "Zona Ciudad",
+      "TOPONIMIA": "Urbana"
+    },
+    {
+      "ZONE_ID": "01",
+      "ZONE_CODE": "URB",
+      "ZONE_NAME": "Cabecera",
+      "TOPONIMIA": "Urbana"
+    },
+    {
+      "ZONE_ID": "01",
+      "ZONE_CODE": "URB",
+      "ZONE_NAME": "Centro Urbano",
+      "TOPONIMIA": "Urbana"
+    },
+    {
+      "ZONE_ID": "02",
+      "ZONE_CODE": "RUR",
+      "ZONE_NAME": "Rural",
+      "TOPONIMIA": "Rural"
+    },
+    {
+      "ZONE_ID": "02",
+      "ZONE_CODE": "RUR",
+      "ZONE_NAME": "Zona Rural",
+      "TOPONIMIA": "Rural"
+    },
+    {
+      "ZONE_ID": "02",
+      "ZONE_CODE": "RUR",
+      "ZONE_NAME": "Area Rural",
+      "TOPONIMIA": "Rural"
+    },
+    {
+      "ZONE_ID": "02",
+      "ZONE_CODE": "RUR",
+      "ZONE_NAME": "Área Rural",
+      "TOPONIMIA": "Rural"
+    },
+    {
+      "ZONE_ID": "02",
+      "ZONE_CODE": "RUR",
+      "ZONE_NAME": "Campo",
+      "TOPONIMIA": "Rural"
+    },
+    {
+      "ZONE_ID": "02",
+      "ZONE_CODE": "RUR",
+      "ZONE_NAME": "Zona Campo",
+      "TOPONIMIA": "Rural"
+    },
+    {
+      "ZONE_ID": "02",
+      "ZONE_CODE": "RUR",
+      "ZONE_NAME": "Fuera de Cabecera",
+      "TOPONIMIA": "Rural"
+    },
+    {
+      "ZONE_ID": "02",
+      "ZONE_CODE": "RUR",
+      "ZONE_NAME": "No Urbana",
+      "TOPONIMIA": "Rural"
+    },
+    {
+      "ZONE_ID": "02",
+      "ZONE_CODE": "RUR",
+      "ZONE_NAME": "Periferia",
+      "TOPONIMIA": "Rural"
+    },
+    {
+      "ZONE_ID": "02",
+      "ZONE_CODE": "RUR",
+      "ZONE_NAME": "Resto",
+      "TOPONIMIA": "Rural"
+    },
+    {
+      "ZONE_ID": "02",
+      "ZONE_CODE": "RUR",
+      "ZONE_NAME": "Zona Resto",
+      "TOPONIMIA": "Rural"
+    }
+  ]
+}
